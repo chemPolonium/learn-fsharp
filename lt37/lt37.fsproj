@@ -5,6 +5,10 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Tailcalls>True</Tailcalls>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="Program.fs" />
   </ItemGroup>
