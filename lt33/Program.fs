@@ -1,2 +1,6 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿type Patterns =
+    | BigNumber of int
+    | HugeNumber
+
+printfn "%s" (nameof (BigNumber))
+printfn "%s" "BigNumber"
