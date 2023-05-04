@@ -4,6 +4,7 @@ let ``20 div`` = (/) 20
 
 let 开方 = sqrt
 let 乘十 = (*) 10.
+// >> 是组合函数
 let 开方乘十 = 开方 >> 乘十
 
 let result = ``inc 1`` 50
