@@ -1,4 +1,7 @@
-﻿open MyNamespace
+﻿// 28 使用命名空间组织模块
+
+// open MyNamespace.Module1
+open MyNamespace
 open Module1
 
 let a = [ 1..10 ]
